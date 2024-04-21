@@ -1,0 +1,37 @@
+.calculator {
+    width: 300px;
+    margin: 200px auto;
+    border: 3px solid #fcfcfc;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+body{
+    background-image: url('https://media.istockphoto.com/id/499401387/vector/seamless-science-background.jpg?s=612x612&w=0&k=20&c=r-XHq2u61GOhqx7emXpPi5y9nHadmuGFnHOZAQMA8_4=');
+}
+
+#display {
+    width: 95%;
+    height:45px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(6, 12, 8);
+    border: 0.1px solid whitesmoke;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6px;
+}
+
+.buttons button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: solid 0.1rem rgb(0, 0, 0);
+}
